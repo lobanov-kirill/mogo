@@ -4,85 +4,118 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MoGo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/style.css" />
   </head>
   <body>
     <!-- header -->
-    <header>
-      <a href="#">MoGo</a>
-      <nav>
-        <ul>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#services">SERVICE</a></li>
-          <li><a href="#">WORK</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">CONTACT</a></li>
+    <header class="header">
+      <a class="logo" href="./index.html">MoGo</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">SERVICE</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">WORK</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="main">
       <!-- services -->
-      <section id="services">
-        <hgroup>
-          <p>We work with</p>
-          <h2>Amazing Services</h2>
+      <section class="services">
+        <hgroup class="services-heading">
+          <p class="services-subtitle-heading">We work with</p>
+          <h2 class="services-title-heading">Amazing Services</h2>
         </hgroup>
-        <ul>
-          <li>
-            <div>
-              <img src="./src/img/services/budilnik.svg" alt="clock" />
+        <ul class="services-list">
+          <li class="services-item">
+            <div class="services-photo">
+              <img
+                class="services-img"
+                src="./src/img/services/budilnik.svg"
+                alt="clock"
+              />
             </div>
-            <h3>PHOTOGRAPHY</h3>
-            <p>
+            <h3 class="services-title">PHOTOGRAPHY</h3>
+            <p class="services-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <div>
-              <img src="./src/img/services/grafik.svg" alt="graf" />
+          <li class="services-item">
+            <div class="services-photo">
+              <img
+                class="services-img"
+                src="./src/img/services/grafik.svg"
+                alt="graf"
+              />
             </div>
-            <h3>PHOTOGRAPHY</h3>
-            <p>
+            <h3 class="services-title">PHOTOGRAPHY</h3>
+            <p class="services-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <div>
-              <img src="./src/img/services/display.svg" alt="display" />
+          <li class="services-item">
+            <div class="services-photo">
+              <img
+                class="services-img"
+                src="./src/img/services/display.svg"
+                alt="display"
+              />
             </div>
-            <h3>PHOTOGRAPHY</h3>
-            <p>
+            <h3 class="services-title">PHOTOGRAPHY</h3>
+            <p class="services-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <div>
-              <img src="./src/img/services/listik.svg" alt="listik" />
+          <li class="services-item">
+            <div class="services-photo">
+              <img
+                class="services-img"
+                src="./src/img/services/listik.svg"
+                alt="listik"
+              />
             </div>
-            <h3>PHOTOGRAPHY</h3>
-            <p>
+            <h3 class="services-title">PHOTOGRAPHY</h3>
+            <p class="services-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <div>
-              <img src="./src/img/services/home.svg" alt="home" />
+          <li class="services-item">
+            <div class="services-photo">
+              <img
+                class="services-img"
+                src="./src/img/services/home.svg"
+                alt="home"
+              />
             </div>
-            <h3>PHOTOGRAPHY</h3>
-            <p>
+            <h3 class="services-title">PHOTOGRAPHY</h3>
+            <p class="services-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <div>
-              <img src="./src/img/services/marketing.svg" alt="marketing" />
+          <li class="services-item">
+            <div class="services-photo">
+              <img
+                class="services-img"
+                src="./src/img/services/marketing.svg"
+                alt="marketing"
+              />
             </div>
-            <h3>PHOTOGRAPHY</h3>
-            <p>
+            <h3 class="services-title">PHOTOGRAPHY</h3>
+            <p class="services-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
@@ -90,56 +123,71 @@
         </ul>
       </section>
       <!-- team -->
-      <section>
-        <hgroup>
-          <p>Who we are</p>
-          <h2>Meet our team</h2>
+      <section class="team">
+        <hgroup class="team-heading">
+          <p class="team-subtitle-heading">Who we are</p>
+          <h2 class="team-title-heading">Meet our team</h2>
         </hgroup>
-        <p>
+        <p class="team-text-heading">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
-        <ul>
-          <li>
-            <article>
-              <div>
-                <img src="./src/img/team/matthew.jpg" alt="Matthew Dix" />
+        <ul class="team-list">
+          <li class="team-item">
+            <article class="teammate">
+              <div class="teammate-photo">
+                <img
+                  class="teammate-img"
+                  src="./src/img/team/matthew.jpg"
+                  alt="Matthew Dix"
+                />
               </div>
-              <h3>Matthew Dix</h3>
-              <p>Graphic Design</p>
+              <h3 class="team-title">Matthew Dix</h3>
+              <p class="team-text">Graphic Design</p>
             </article>
           </li>
-          <li>
-            <article>
-              <div>
+          <li class="team-item">
+            <article class="teammate">
+              <div class="teammate-photo">
                 <img
+                  class="teammate-img"
                   src="./src/img/team/christopher.jpg"
                   alt="Christopher Campbell"
                 />
               </div>
-              <h3>Christopher Campbell</h3>
-              <p>Branding/UX design</p>
+              <h3 class="team-title">Christopher Campbell</h3>
+              <p class="team-text">Branding/UX design</p>
             </article>
           </li>
-          <li>
-            <article>
-              <div>
-                <img src="./src/img/team/michael.jpg" alt="Michael Fertig " />
+          <li class="team-item">
+            <article class="teammate">
+              <div class="teammate-photo">
+                <img
+                  class="teammate-img"
+                  src="./src/img/team/michael.jpg"
+                  alt="Michael Fertig "
+                />
               </div>
-              <h3>Michael Fertig</h3>
-              <p>Developer</p>
+              <h3 class="team-title">Michael Fertig</h3>
+              <p class="team-text">Developer</p>
             </article>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <p>© 2016 MoGo free PSD template by <span>Laaqiq</span></p>
-      <form>
-        <input type="email" placeholder="Your Email..." />
-        <button type="submit">Subscribe</button>
+    <footer class="footer">
+      <p class="policy">
+        © 2016 MoGo free PSD template by <span class="policy-part">Laaqiq</span>
+      </p>
+      <form class="footer-form">
+        <input
+          class="footer-form-email"
+          type="email"
+          placeholder="Your Email..."
+        />
+        <button class="footer-form-button" type="submit">Subscribe</button>
       </form>
     </footer>
   </body>
