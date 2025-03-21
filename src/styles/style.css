@@ -41,6 +41,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 17px;
 }
 .logo {
   font-weight: 700;
@@ -65,10 +66,17 @@ body {
 }
 
 /*Services Section*/
+.services-heading {
+  margin-top: 68px;
+  margin-bottom: 65px;
+}
 .services-subtitle-heading {
   font-family: var(--font--question);
   font-size: 24px;
   line-height: 1.458;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .services-title-heading {
@@ -76,13 +84,47 @@ body {
   font-size: 30px;
   font-variant: all-small-caps;
   line-height: 1.23;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 
+.services-dash {
+  background-color: var(--color-dash);
+  height: 4px;
+  width: 60px;
+  margin: 0 auto;
+}
+
+.services-list-container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 100px;
+  column-gap: 33px;
+}
+
+.services-item {
+  max-width: 367px;
+  gap: 20px;
+}
+.services-img {
+  height: 37px;
+  width: 37px;
+}
 .services-title {
   font-weight: 400;
   font-size: 14px;
   font-variant: small-caps;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .services-text {
@@ -98,6 +140,9 @@ body {
   font-family: var(--font--question);
   font-size: 24px;
   line-height: 1.458;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 17px;
 }
 
 .team-title-heading {
@@ -105,6 +150,16 @@ body {
   font-size: 30px;
   font-variant: all-small-caps;
   line-height: 1.23;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+.team-dash {
+  background-color: var(--color-dash);
+  height: 4px;
+  width: 60px;
+  margin: 0 auto;
+  margin-bottom: 45px;
 }
 
 .team-text-heading {
@@ -114,14 +169,29 @@ body {
   text-align: center;
   color: var(--color-decription);
   letter-spacing: 1.2;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 27px;
 }
 
+.team-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.teammate-img {
+  width: 380px;
+  height: 470px;
+}
 .team-title {
   font-weight: 400;
   font-size: 14px;
   font-variant: all-small-caps;
   text-align: center;
   line-height: 1.21;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team-text {
@@ -131,18 +201,29 @@ body {
   font-size: 15px;
   text-align: center;
   color: var(--color-decription);
+  margin-bottom: 80px;
 }
 
 /*Footer*/
-.footer {
-  border-top: 1px solid var(--color-decription); /* Линия сверху */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
+.footer-line {
+  width: 1200px;
+  height: 1px;
+  background-color: var(--color-decription);
+  margin: 0 auto;
+}
 .policy {
   font-weight: 400;
   font-size: 14px;
   text-align: center;
   color: var(--color-policy);
+  margin-top: 22px;
 }
 
 .policy-part {
@@ -156,7 +237,7 @@ body {
   font-size: 14px;
   text-align: center;
   color: var(--color-decription);
-  width: 300px;
+  width: 230px;
   height: 40px;
   padding: 10px;
   border: 1px solid var(--color-decription);
@@ -164,6 +245,7 @@ body {
   outline: none;
   box-sizing: border-box;
   line-height: 1.14;
+  margin-top: 10px;
 }
 
 .footer-form-button {
