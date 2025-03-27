@@ -108,7 +108,13 @@ body {
 }
 
 .services-item {
+  display: flex;
   flex-basis: calc((100% - 140px) / 3);
+}
+
+.services-content {
+  display: flex;
+  flex-direction: column; /* Располагаем элементы вертикально */
 }
 
 .services-title {
@@ -117,6 +123,10 @@ body {
   font-variant: small-caps;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+
+.services-photo {
+  margin-right: 20px;
 }
 
 .services-text {
